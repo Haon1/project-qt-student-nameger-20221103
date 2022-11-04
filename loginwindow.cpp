@@ -78,5 +78,5 @@ void LoginWindow::loadQss()
 void LoginWindow::on_btn_login_clicked()
 {
     this->hide();
-    dataWindow->show();
+    dataWindow->showMaximized();
 }

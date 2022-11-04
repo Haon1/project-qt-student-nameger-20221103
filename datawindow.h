@@ -15,6 +15,8 @@ public:
     explicit DataWindow(QWidget *parent = nullptr);
     ~DataWindow();
 
+    void loadQss();
+
 private slots:
     void on_btn_back_clicked();
 
