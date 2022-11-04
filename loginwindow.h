@@ -2,6 +2,7 @@
 #define LOGINWINDOW_H
 
 #include <QMainWindow>
+#include "datawindow.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class LoginWindow; }
@@ -22,11 +23,9 @@ public:
 private slots:
     void on_btn_login_clicked();
 
-    void on_le_reset_clicked();
-
-    void on_btn_exit_clicked();
-
 private:
     Ui::LoginWindow *ui;
+
+    DataWindow *dataWindow;
 };
 #endif // LOGINWINDOW_H

@@ -13,6 +13,8 @@ LoginWindow::LoginWindow(QWidget *parent)
 
     widgetInit();
 
+    dataWindow = new DataWindow(this);
+
 }
 
 LoginWindow::~LoginWindow()
@@ -75,5 +77,6 @@ void LoginWindow::loadQss()
  */
 void LoginWindow::on_btn_login_clicked()
 {
-
+    this->hide();
+    dataWindow->show();
 }
