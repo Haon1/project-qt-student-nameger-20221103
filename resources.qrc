@@ -1,5 +1,8 @@
 <RCC>
     <qresource prefix="/">
-        <file>resources/icon.png</file>
+        <file>res/icon/acc.png</file>
+        <file>res/icon/icon.png</file>
+        <file>res/icon/pwd.png</file>
+        <file>res/style/login.qss</file>
     </qresource>
 </RCC>

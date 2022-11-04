@@ -15,6 +15,17 @@ public:
     LoginWindow(QWidget *parent = nullptr);
     ~LoginWindow();
 
+    void widgetInit();      //控件初始化
+    void setEditIcon();     //设置输入框图案
+    void loadQss();        //设置StyleSheet
+
+private slots:
+    void on_btn_login_clicked();
+
+    void on_le_reset_clicked();
+
+    void on_btn_exit_clicked();
+
 private:
     Ui::LoginWindow *ui;
 };
